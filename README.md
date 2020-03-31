@@ -29,6 +29,11 @@ reproduce simulator similar to [this](https://www.washingtonpost.com/graphics/20
     * E.g. transmission rates, population sizes. Can we model future rates?
     * Census data to get age distribution. Can we adjust recovery probability?
 
+* Newly infected agents show as larger, or a different color.
+* Calc probability of being infected as rolling average (e.g. 5 day average) of (# new cases)/(# uninfected) 
+* Run scenarios for centralized response/interventions: Test and Quarantine, 
+* Factor in hospital capacity: Set some threshold. If the number of active cases is higher than that, the mortality probability goes up.
+
 # Refactors
 * Move underlying update functions to external script
 * Host on server/ webpage
