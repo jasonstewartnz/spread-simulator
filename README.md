@@ -37,3 +37,4 @@ reproduce simulator similar to [this](https://www.washingtonpost.com/graphics/20
 # Refactors
 * Move underlying update functions to external script
 * Host on server/ webpage
+* split into server side feed built in Python (Django) and client-side app in Javascript (D3)
